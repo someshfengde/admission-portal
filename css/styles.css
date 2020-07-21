@@ -81,23 +81,9 @@ background: #E7E7E7;
 	#collapsable-nav a br{
 		font-size: 1.2em;
 	}
-	/*#navlist a{
-		text-align: center;
+}
+@media(min-width: 764px){
+	.navbar-brand a h1{
+		font-size: 5vw;
 	}
-	.navbar-nav li a{
-		padding-top: 10px;
-		padding-bottom: 10px;
-		line-height: 20px;
-
-	}
-	.nav li a{
-		position: relative;
-		display: block;
-		padding: 10px 15px;
-	}
-	.glyphicon{
-		position: relative;
-		display: inline-block;
-		top: 1px;
-	}*/
 }
