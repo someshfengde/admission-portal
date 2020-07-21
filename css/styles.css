@@ -1,0 +1,103 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: 'Oxygen',sans-serif;
+
+}
+header{
+	background-color: black;
+	margin-bottom: 5px solid black;
+	border-radius: 5px;
+}
+
+#header-nav{
+	background-color: white;
+	border-radius: 10px;
+	border-bottom: 3px solid black;
+	border-color: black;
+
+}
+.navbar-brand{
+	padding-top: 25px;
+}	
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: gold;
+	font-size:1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.nav-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid black;
+}
+
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top: -30px;
+}
+
+.panel-footer{	
+	background-color: #bdb8b8;
+}
+
+#names a{
+	align-self: bottom;
+	text-orientation: all;
+	text-decoration: none;
+	color: white	;
+	
+}
+#names span{
+	color: red;
+}
+@media(max-width: 763px){
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	#collapsable-nav a br{
+		font-size: 1.2em;
+	}
+	/*#navlist a{
+		text-align: center;
+	}
+	.navbar-nav li a{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 20px;
+
+	}
+	.nav li a{
+		position: relative;
+		display: block;
+		padding: 10px 15px;
+	}
+	.glyphicon{
+		position: relative;
+		display: inline-block;
+		top: 1px;
+	}*/
+}
