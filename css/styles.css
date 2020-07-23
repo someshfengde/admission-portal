@@ -1,8 +1,10 @@
 body{
 	font-size: 16px;
-	color: #fff;
+	color:;
 	background-color: white;
 	font-family: 'Oxygen',sans-serif;
+	background-image: "./background.png"
+
 
 }
 header{
@@ -73,6 +75,38 @@ background: #E7E7E7;
 #names span{
 	color: red;
 }
+
+/*main content*/
+#nba{
+	background-image: ('./nba accredation.jpg');
+	max-width: 100%;
+	border-radius: 8px;
+	display: block;
+	position: relative;
+}
+
+#heading{
+	color: black;
+}
+.list-group{
+	text-align: center;
+}
+#tiles{
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 0px;
+	margin-bottom: 5px;
+	box-shadow: 8px gray;
+}
+
+#tiles2{
+	border: 2px solid black;
+	border-radius: 5px;
+	padding-bottom: 55px;
+	margin-bottom: 5px;
+	box-shadow: 8px gray;
+}
+
 @media(max-width: 763px){
 	#collapsable-nav a span{
 		font-size: 1em;
