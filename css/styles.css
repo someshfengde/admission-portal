@@ -63,6 +63,9 @@ background: #E7E7E7;
 
 .panel-footer{	
 	background-color: #bdb8b8;
+	margin: none; 	
+	padding-bottom: 20px;
+	text-overflow: scroll;	
 }
 
 #names a{
@@ -105,6 +108,9 @@ background: #E7E7E7;
 	padding-bottom: 55px;
 	margin-bottom: 5px;
 	box-shadow: 8px gray;
+}
+#sidebar{
+
 }
 
 @media(max-width: 763px){
